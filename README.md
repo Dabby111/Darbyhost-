@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Darby Host | Fast, Secure & Reliable Web Hosting</title>
+<title>Darby Host</title>
 
 <style>
 *{
@@ -14,12 +14,12 @@ font-family:Arial,sans-serif;
 }
 
 body{
-background:#f5f7fb;
-color:#222;
+background:#f5f5f5;
+color:#333;
 }
 
 header{
-background:linear-gradient(135deg,#6D28D9,#4C1D95);
+background:#6D28D9;
 color:white;
 padding:20px 8%;
 display:flex;
@@ -27,9 +27,8 @@ justify-content:space-between;
 align-items:center;
 }
 
-.logo{
-font-size:30px;
-font-weight:bold;
+header h2{
+font-size:28px;
 }
 
 nav a{
@@ -40,10 +39,10 @@ font-weight:bold;
 }
 
 .hero{
-background:linear-gradient(135deg,#6D28D9,#7C3AED);
+background:linear-gradient(135deg,#6D28D9,#4C1D95);
 color:white;
-padding:90px 8%;
 text-align:center;
+padding:100px 20px;
 }
 
 .hero h1{
@@ -58,7 +57,7 @@ margin:auto;
 line-height:1.6;
 }
 
-.btn{
+.button{
 display:inline-block;
 margin-top:30px;
 padding:15px 35px;
@@ -69,14 +68,14 @@ font-weight:bold;
 border-radius:8px;
 }
 
-section{
+.section{
 padding:70px 8%;
 }
 
-.title{
+.section h2{
 text-align:center;
 margin-bottom:40px;
-font-size:35px;
+font-size:34px;
 }
 
 .cards{
@@ -89,50 +88,23 @@ gap:25px;
 background:white;
 padding:30px;
 border-radius:15px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
+box-shadow:0 5px 15px rgba(0,0,0,.1);
 text-align:center;
-}
-
-.card h3{
-color:#6D28D9;
-margin-bottom:15px;
 }
 
 .price{
-font-size:35px;
+font-size:32px;
 font-weight:bold;
-margin:15px 0;
-}
-
-.card a{
-display:inline-block;
-background:#6D28D9;
-color:white;
-padding:12px 25px;
-border-radius:8px;
-text-decoration:none;
-margin-top:15px;
-}
-
-.features{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
-gap:25px;
-text-align:center;
-}
-
-.feature{
-background:white;
-padding:25px;
-border-radius:12px;
-box-shadow:0 3px 10px rgba(0,0,0,.08);
+margin:20px 0;
+color:#6D28D9;
 }
 
 footer{
 background:#111827;
 color:white;
 text-align:center;
-padding:35px;
+padding:30px;
+margin-top:60px;
 }
 </style>
 
@@ -142,13 +114,13 @@ padding:35px;
 
 <header>
 
-<div class="logo">Darby Host</div>
+<h2>Darby Host</h2>
 
 <nav>
 <a href="#">Home</a>
 <a href="#">Hosting</a>
 <a href="#">Domains</a>
-<a href="#">Support</a>
+<a href="#">About</a>
 <a href="#">Contact</a>
 </nav>
 
@@ -159,17 +131,16 @@ padding:35px;
 <h1>Fast, Secure & Reliable Web Hosting</h1>
 
 <p>
-Launch your website with Darby Host.
-Powerful hosting, free SSL, daily backups and dependable support to help your online business grow.
+Power your website with reliable hosting solutions designed for businesses, creators and beginners.
 </p>
 
-<a href="#" class="btn">Get Started</a>
+<a href="#" class="button">Get Started</a>
 
 </section>
 
-<section>
+<section class="section">
 
-<h2 class="title">Our Hosting Plans</h2>
+<h2>Our Hosting Plans</h2>
 
 <div class="cards">
 
@@ -177,60 +148,49 @@ Powerful hosting, free SSL, daily backups and dependable support to help your on
 <h3>Starter</h3>
 <div class="price">₦2,500/mo</div>
 <p>1 Website</p>
-<p>10GB SSD Storage</p>
 <p>Free SSL</p>
-<p>Email Accounts</p>
-<a href="#">Order Now</a>
+<p>10GB SSD Storage</p>
 </div>
 
 <div class="card">
 <h3>Business</h3>
 <div class="price">₦6,000/mo</div>
 <p>50 Websites</p>
-<p>100GB SSD Storage</p>
-<p>Free Domain*</p>
-<p>Daily Backups</p>
-<a href="#">Order Now</a>
+<p>Free Domain</p>
+<p>Daily Backup</p>
 </div>
 
 <div class="card">
 <h3>Premium</h3>
 <div class="price">₦12,000/mo</div>
 <p>Unlimited Websites</p>
-<p>Unlimited SSD*</p>
 <p>Priority Support</p>
 <p>Advanced Security</p>
-<a href="#">Order Now</a>
 </div>
 
 </div>
 
 </section>
 
-<section>
+<section class="section">
 
-<h2 class="title">Why Choose Darby Host?</h2>
+<h2>Why Choose Darby Host?</h2>
 
-<div class="features">
+<div class="cards">
 
-<div class="feature">
-<h3>⚡ Fast Performance</h3>
-<p>Optimized servers for excellent website speed.</p>
+<div class="card">
+<h3>⚡ Fast Servers</h3>
+<p>Optimized hosting for speed and reliability.</p>
 </div>
 
-<div class="feature">
-<h3>🔒 Secure Hosting</h3>
-<p>SSL certificates and security features to help protect your site.</p>
+<div class="card">
+<h3>🔒 Secure</h3>
+<p>Free SSL and advanced security protection.</p>
 </div>
 
-<div class="feature">
-<h3>🌍 Reliable Uptime</h3>
-<p>Built to keep your website available and dependable.</p>
-</div>
-
-<div class="feature">
-<h3>💬 Customer Support</h3>
-<p>Friendly support when you need help.</p>
+<div class="card">
+<h3>💬 Support</h3>
+<p>Friendly customer support whenever you need help.</p>
 </div>
 
 </div>
@@ -242,8 +202,6 @@ Powerful hosting, free SSL, daily backups and dependable support to help your on
 <h2>Darby Host</h2>
 
 <p>Powering Your Online Success</p>
-
-<br>
 
 <p>© 2026 Darby Host. All rights reserved.</p>
 
